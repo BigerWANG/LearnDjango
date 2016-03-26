@@ -37,6 +37,8 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'breakingbad',
+    'book',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -77,12 +79,12 @@ WSGI_APPLICATION = 'radioactive.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'test',
         'USER': 'root',
-        'PASSWORD':'123',
-        'HOST':'127.0.0.1',
-        'PORT':'3306',
-    }
+        'PASSWORD': '123',
+        'NAME': 'test1',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+    },
 }
 
 
